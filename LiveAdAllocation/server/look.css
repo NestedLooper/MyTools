@@ -1,0 +1,25 @@
+.lookatit{
+height:100%;
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #91F2F2),
+	color-stop(1, #FA8258)
+);
+background-image: -o-linear-gradient(bottom, #91F2F2 0%, #FA8258 100%);
+background-image: -moz-linear-gradient(bottom, #91F2F2 0%, #FA8258 100%);
+background-image: -webkit-linear-gradient(bottom, #91F2F2 0%, #FA8258 100%);
+background-image: -ms-linear-gradient(bottom, #91F2F2 0%, #FA8258 100%);
+background-image: linear-gradient(to bottom, #91F2F2 0%, #FA8258 100%);
+
+}
+
+.aBox{
+	height: 600px;
+	width: 500px;
+	border: 1px solid white;
+	display: inline-block;
+	margin: 0 auto;
+}
